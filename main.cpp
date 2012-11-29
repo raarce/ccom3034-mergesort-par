@@ -11,7 +11,7 @@ bool verification (int *a, int low, int high);
 void parallelMergeSort(int *a, int size);
 
 int main(int argc, char *argv[]){
-    testMergeSortPar(1400000);
+    testMergeSortPar(700000);
     return(0);
 }
 
